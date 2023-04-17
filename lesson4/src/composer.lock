@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "15843ca04f6a61a4f4aabd7b40bc7d30",
+    "packages": [
+        {
+            "name": "webit/bcmath",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dbojdo/bcmath.git",
+                "reference": "a34eeabbb5754482ebc0ec465deb25dc6bc61e56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dbojdo/bcmath/zipball/a34eeabbb5754482ebc0ec465deb25dc6bc61e56",
+                "reference": "a34eeabbb5754482ebc0ec465deb25dc6bc61e56",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webit\\Wrapper\\BcMath\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bojdo",
+                    "email": "daniel.bojdo@web-it.eu"
+                }
+            ],
+            "description": "Object wrapper for PHP BcMath Library",
+            "keywords": [
+                "bcmath",
+                "big numeric"
+            ],
+            "support": {
+                "issues": "https://github.com/dbojdo/bcmath/issues",
+                "source": "https://github.com/dbojdo/bcmath/tree/1.0.0"
+            },
+            "time": "2015-05-09T10:01:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "webit/bcmath": "^1.0"
+    }
+}
